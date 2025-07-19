@@ -20,7 +20,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("t20 classic Ai bot Restarting be cool.Thanks for choosing toxic ©Charleske-xmd⏳");
+    repondre("t20 classic Ai bot Restarting be cool.Thanks for choosing toxic ©t20⏳");
 
   exec("pm2 restart all");
   
