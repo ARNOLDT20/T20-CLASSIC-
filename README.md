@@ -35,7 +35,7 @@ Support the project by giving a ⭐ and forking the repo.
 PAIR CODE 
 
 <p align="left">
-  <a href="https://ch">
+  <a href="https://t20-classic-ai-pair-site.onrender.com">
     <img title="PAIR CODE" src="https://img.shields.io/badge/GET SESSION-neonred?style=for-the-badge&logo=charleske" width="220" height="38.45"/>
   </a>
 </p>
