@@ -45,7 +45,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ╰─━━━━══──══━━━❂\n${readmore}
 `;
 
-    let menuMsg = 'T20 CLASSIC AI `;
+    let menuMsg = `CHARLES XMD`;
     
     for (const cat in coms) {
         menuMsg += `
@@ -61,7 +61,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
 ╰─━━═••═━━••⊷`;
     }
     
-    menuMsg += `\n> Made By sir T20`;
+    menuMsg += `\n> Made By charles`;
 
     try {
         const senderName = nomAuteurMessage || message.from;
@@ -82,7 +82,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
                 externalAdReply: {
                     title: "T20 CLASSIC AI MENU LIST",
                     body: "I have more tap to follow channel",
-                    thumbnailUrl: "https://files.catbox.moe/w10gxl.jpg",
+                    thumbnailUrl: "https://files.catbox.moe/7aey0i.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6W30X1noyy6cijtB1q",
                     mediaType: 1,
                     renderLargerThumbnail: true
