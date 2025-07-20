@@ -69,7 +69,7 @@ zokou({ nomCom: "menu", categorie: "Menu" }, async (dest, zk, commandeOptions) =
         // Music configuration
         const musicConfig = {
             localPath: "./music/menu-theme.mp3",
-            url: "https://files.catbox.moe/iq4ouj.mp3",
+            url: "https://files.catbox.moe/gagjb6.mp3",
             useURL: true,
             delayAfterMenu: 3000 // 3 second delay after menu
         };
