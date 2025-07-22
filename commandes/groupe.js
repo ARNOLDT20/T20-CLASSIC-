@@ -37,7 +37,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────────━┈⊷ 
-│⛔* t20  classic TAGS🚀*
+│⛔ *Classic ai TAGS🚀*
 ╰─────────────────━┈⊷ \n
 │⭕ *Group* : ${nomGroupe} 
 │⭕ *Hey😀* : *${nomAuteurMessage}* 
@@ -78,7 +78,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©CHARLESKE XMD 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
+Group link :${lien} \n\n©t20 classic AI 𝐬𝐜𝐢𝐞𝐧𝐜𝐞`
   repondre(mess)
 
 
@@ -992,3 +992,5 @@ zokou({
       repondre('You must enter "on" or "off"') ;
     }
 } ) ;
+
+
