@@ -1,5 +1,5 @@
 {
-  "name": "CHARLES XMD",
+  "name": "T20 classic Ai",
   "version": "2.0.0",
   "description": "WhatsApp Multi Device Bot",
   "main": "Charles.js",
@@ -17,7 +17,7 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "author": "CHARLES XMD",
+  "author": "T20 classic ai",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "github:devibraah/bwmxmdtech",
