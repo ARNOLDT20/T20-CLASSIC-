@@ -1,6 +1,6 @@
 {
   "name":"T20 CLASSIC AI",
-  "description":"Best whatsapp bot💥 developed by sir T20",
+  "description":"Best whatsapp bot💥 developed by sir T20 classic",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
   "repository":"https://github.com/ekitale/maths-project",
@@ -104,12 +104,12 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©sir t20"
+    "value": "©sir t20 classic"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of Tanzania'255768418867')",
     "required":true,
     "value": ""
   },
