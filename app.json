@@ -1,7 +1,7 @@
 {
   "name": "T20-CLASSIC-AI",
-  "description": "Javascript WhatsApp bot made by Iᴍᴀᴅ Aʟɪ",
-  "logo": "https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg",
+  "description": "Javascript WhatsApp bot made by T20_STARBOY",
+  "logo": "https://i.imgur.com/dJRyrlw.jpeg",
   "keywords": ["T20-CLASSIC-AI"],
   "success_url": "/",
 
@@ -124,7 +124,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg"
+      "value": "https://i.imgur.com/dJRyrlw.jpeg"
     },
     
      "DESCRIPTION": {
