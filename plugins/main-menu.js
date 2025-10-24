@@ -373,7 +373,7 @@ let dec = `*╭────⬡ ${config.BOT_NAME} ⬡────⭓*
 ${config.DESCRIPTION}`;
 
 await conn.sendMessage(from, { 
-    image: { url: config.MENU_IMAGE_URL || 'https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg' }, 
+    image: { url: config.MENU_IMAGE_URL || 'https://i.imgur.com/dJRyrlw.jpeg' }, 
     caption: dec, 
     contextInfo: { 
         mentionedJid: [m.sender], 
