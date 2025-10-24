@@ -1,7 +1,7 @@
 {
   "name": "T20-CLASSIC-AI",
   "version": "5.0.0",
-  "description": "A WhatsApp Bot Created By Iᴍᴀᴅ  T20_STARBOY",
+  "description": "A WhatsApp Bot Created By T20_STARBOY",
   "main": "index.js",
   "engines": {
     "node": ">=20.x",
