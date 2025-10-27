@@ -26,7 +26,7 @@ async (conn, mek, m, { from, sender, reply }) => {
 │
 ├─ *🌐 Platform:* Heroku
 ├─ *📦 Mode:* ${config.MODE || 'private'}
-├─ *👑 Owner:* ${config.OWNER_NAME || 'ImmuXRI'}
+├─ *👑 Owner:* ${config.OWNER_NAME || 'T20_STARBOY'}
 ├─ *🔹 Prefix:* ${config.PREFIX || '.'}
 ├─ *🧩 Version:* 1.0.0 Beta
 ├─ *📁 Total Commands:* ${totalCmds}
