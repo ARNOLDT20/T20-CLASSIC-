@@ -139,7 +139,7 @@ cmd({
 `;
 
   await conn.sendMessage(from, { 
-    image: { url: config.MENU_IMAGE_URL || 'https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg' }, 
+    image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8hkkds.jpg' }, 
     caption: settingsMenu 
   }, { quoted: mek });
 });
@@ -178,7 +178,7 @@ cmd({
 🎧 *Powered by ${config.BOT_NAME}*`;
 
     await client.sendMessage(from, {
-        image: { url: config.MENU_IMAGE_URL || 'https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg' },
+        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/8hkkds.jpg' },
         caption: audioMenu,
         contextInfo: {
             mentionedJid: [message.sender],
@@ -238,7 +238,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -304,7 +304,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -387,7 +387,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -465,7 +465,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -532,7 +532,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -603,7 +603,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -655,7 +655,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -714,7 +714,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -775,7 +775,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -844,7 +844,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/xTTgKc2W/IMG-20250801-WA0019.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -903,7 +903,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/90oj1t.jpg` },
+                image: { url: `https://files.catbox.moe/8hkkds.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
