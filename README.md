@@ -21,7 +21,7 @@
 ## 📌 Official Links & Deployment
 
 <p align="center">
-  <a href="https://pair-immu-md-2b03eed0e031.herokuapp.com/">
+  <a href="https://khanmd-pair.onrender.com/">
     <img src="https://img.shields.io/badge/Get_Session_ID-1E90FF?style=for-the-badge&logo=hyper&logoColor=white" alt="Get Session ID">
   </a>
 </p>
