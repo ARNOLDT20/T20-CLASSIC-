@@ -1,8 +1,8 @@
 {
-  "name": "IMMU-MD",
-  "description": "Javascript WhatsApp bot made by Iᴍᴀᴅ Aʟɪ",
+  "name": "T20-CLASSIC-AI",
+  "description": "Javascript WhatsApp bot made by T20_STARBOY",
   "logo": "https://files.catbox.moe/w10gxl.jpg",
-  "keywords": ["IMMU-MD"],
+  "keywords": ["T20-AI"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "IMMU-MD"
+      "value": "T20-CLASSIC-AI"
     }, 
       
     "PREFIX": {
@@ -78,27 +78,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY IMMU-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY T20-CLASSIC-AI 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "IMMU MD"
+      "value": "T20-CLASSIC-AI"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923493114170"
+      "value": "255627417402"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "IMMU-MD"
+      "value": "T20-CLASSIC-AI"
 
       }, 
 
@@ -130,7 +130,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ IMMU MD*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ T20-CLASSIC-AI*"
     },
 
       "DELETE_LINKS": {
