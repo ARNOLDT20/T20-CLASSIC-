@@ -94,7 +94,7 @@ async function loadSession() {
         
         // Remove "IK~" prefix if present, otherwise use full SESSION_ID
         const megaFileId = config.SESSION_ID.startsWith('IMMU~') 
-            ? config.SESSION_ID.replace("IMMU~", "") 
+            ? config.SESSION_ID.replace("IK~", "") 
             : config.SESSION_ID;
 
         const filer = File.fromURL(`https://mega.nz/file/${megaFileId}`);
