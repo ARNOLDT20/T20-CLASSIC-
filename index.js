@@ -93,8 +93,8 @@ async function loadSession() {
         console.log('[🔰] Downloading MEGA.nz session...');
         
         // Remove "IK~" prefix if present, otherwise use full SESSION_ID
-        const megaFileId = config.SESSION_ID.startsWith('IMMU~') 
-            ? config.SESSION_ID.replace("IK~", "") 
+        const megaFileId = config.SESSION_ID.startsWith('CYPHER-X:~') 
+            ? config.SESSION_ID.replace("CYPHER-X:~", "") 
             : config.SESSION_ID;
 
         const filer = File.fromURL(`https://mega.nz/file/${megaFileId}`);
