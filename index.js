@@ -92,23 +92,51 @@ async function loadSession() {
         console.log('[⏳] Downloading creds data...');
         console.log('[🔰] Downloading MEGA.nz session...');
         
-        // Remove "IK~" prefix if present, otherwise use full SESSION_ID
-        const megaFileId = config.SESSION_ID.startsWith('CYPHER-X:~') 
-            ? config.SESSION_ID.replace("CYPHER-X:~", "") 
-            : config.SESSION_ID;
+    // Support multiple SESSION_ID formats.
+    // 1) POPKID;;;<payload> -> payload may be base64-encoded JSON or raw JSON
+    // 2) CYPHER-X:~<megaFileId> or plain <megaFileId> -> download from mega.nz
+    if (config.SESSION_ID.startsWith('POPKID;;;')) {
+      try {
+        const payload = config.SESSION_ID.slice('POPKID;;;'.length);
+        let jsonStr = payload;
+        // Try to decode base64 first
+        try {
+          const decoded = Buffer.from(payload, 'base64').toString('utf8');
+          // ensure it's valid JSON
+          JSON.parse(decoded);
+          jsonStr = decoded;
+        } catch (e) {
+          // not base64 or not valid json after decode - assume raw JSON
+          try { JSON.parse(jsonStr); } catch (err) { throw new Error('POPKID payload is not valid JSON or base64-encoded JSON'); }
+        }
 
-        const filer = File.fromURL(`https://mega.nz/file/${megaFileId}`);
+        fs.writeFileSync(credsPath, jsonStr);
+        console.log('[✅] Session loaded from POPKID payload');
+        return JSON.parse(jsonStr);
+      } catch (err) {
+        console.error('❌ Error parsing POPKID session:', err.message);
+        console.log('Will generate QR code instead');
+        return null;
+      }
+    }
+
+    // Remove "CYPHER-X:~" prefix if present, otherwise use full SESSION_ID
+    const megaFileId = config.SESSION_ID.startsWith('CYPHER-X:~') 
+      ? config.SESSION_ID.replace("CYPHER-X:~", "") 
+      : config.SESSION_ID;
+
+    const filer = File.fromURL(`https://mega.nz/file/${megaFileId}`);
             
-        const data = await new Promise((resolve, reject) => {
-            filer.download((err, data) => {
-                if (err) reject(err);
-                else resolve(data);
-            });
-        });
+    const data = await new Promise((resolve, reject) => {
+      filer.download((err, data) => {
+        if (err) reject(err);
+        else resolve(data);
+      });
+    });
         
-        fs.writeFileSync(credsPath, data);
-        console.log('[✅] MEGA session downloaded successfully');
-        return JSON.parse(data.toString());
+    fs.writeFileSync(credsPath, data);
+    console.log('[✅] MEGA session downloaded successfully');
+    return JSON.parse(data.toString());
     } catch (error) {
         console.error('❌ Error loading session:', error.message);
         console.log('Will generate QR code instead');
