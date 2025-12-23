@@ -4,13 +4,12 @@
   "logo": "https://files.catbox.moe/w10gxl.jpg",
   "keywords": ["T20-AI"],
   "success_url": "/",
-
-    "stack": "container",
+  "repository": "https://github.com/ARNOLDT20/T20-CLASSIC-",
   "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "POPKID;;;<base64-or-json-payload>"
     },  
     
     "STICKER_NAME": {
@@ -202,11 +201,18 @@
 
 },
 
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
-  "stack": "heroku-24"
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24",
+  "formation": [
+    {
+      "type": "web",
+      "quantity": 1,
+      "size": "free"
+    }
+  ]
 }
   
